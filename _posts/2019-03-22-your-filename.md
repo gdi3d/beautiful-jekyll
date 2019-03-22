@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Testing this shit
 ---
 ## A New Post testing it
