@@ -5,7 +5,9 @@ title: How to publish a website
 date: '2015-08-10'
 Category: Posts
 Tags: 'web, beginner, how to'
-subtitle: dasdadadas
+subtitle: What do you need to know and do to create a website
+category: Posts
+tags: 'web, beginner, how to'
 ---
 ### Overview
 
