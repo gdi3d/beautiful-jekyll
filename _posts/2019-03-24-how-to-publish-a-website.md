@@ -7,7 +7,7 @@ Category: Posts
 Tags: 'web, beginner, how to'
 subtitle: What do you need to know and do to create a website
 category: Posts
-tags: 'web, beginner, how to'
+tags: web beginner
 ---
 ### Overview
 
