@@ -1,6 +1,6 @@
 ---
 layout: minimal
-published: false
+published: true
 title: testing layout
 ---
 ## A New Post testing
