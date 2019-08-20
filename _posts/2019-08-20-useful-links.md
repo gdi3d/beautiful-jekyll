@@ -25,5 +25,6 @@ Things I've read and helped me.
     
 - [https://cloudonaut.io/aws-security-primer/](https://cloudonaut.io/aws-security-primer/)  
     New to AWS or trying to understand how the security models (IAM, Policies, Roles, Security groups, etc) works? This is VERY good post explaining all the relationships between all the components using nice and easy to understand graphics
+    
 - [https://vladmihalcea.com/a-beginners-guide-to-acid-and-database-transactions/](https://vladmihalcea.com/a-beginners-guide-to-acid-and-database-transactions/)  
     Ever wonder how ACID databases works under the hood? read these to understand the basics
