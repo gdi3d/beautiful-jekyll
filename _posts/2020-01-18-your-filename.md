@@ -1,12 +1,13 @@
 ---
 layout: post
 published: false
-title: ''
----
-Title: Creating a basic development environment
-Date: 2015-09-18 20:00
+title: Creating a basic development environment
+date: '2015-09-18'
 Category: Posts
 Tags: tips
+---
+Title: 
+
 
 Recently I was asked to help out and organize a small group of programmers to improve their (non-existent) workflow.
 
