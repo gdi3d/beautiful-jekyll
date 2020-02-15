@@ -13,10 +13,10 @@ This is a small document with the recommendation that I wrote for them
 
 # Overview
 
-1. [Use Git]
-2. [Create an account in BitBucket.org]
-3. [Give your developers a small/medium size server to deploy their work and test it]
-4. [Implement some work methodology]
+1. Use Git
+2. Create an account in BitBucket.org
+3. Give your developers a small/medium size server to deploy their work and test it
+4. Implement some work methodology
 
 ## Use Git
 
