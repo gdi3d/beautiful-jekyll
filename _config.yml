@@ -24,7 +24,7 @@ description: It's not a bug, it's a feature!
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Cool Articules: "cool-articles"
+  Cool Articles: "cool-articles"
   Pet Projects:
     - Secure Videconference: "https://www.yameeting.com/"
     - Stores ERP: "https://www.storelogger.com/"
