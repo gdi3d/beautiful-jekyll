@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 4 Things to creating a basic development environment
 date: '2020-02-15'
 Category: Posts
