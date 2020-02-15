@@ -13,10 +13,9 @@ This is a small document with the recommendation that I wrote for them
 # Overview
 
 1. [Use Git](#use-git)
-1. [Create an account in BitBucket.org]
-1. [Give your developers a small/medium size server to deploy they work and test it](#devel-server)
-1. [Implement Agile method using scrum](#agile-scrum)
-1. [Full workflow example](#example)
+2. [Create an account in BitBucket.org]
+1. [Give your developers a small/medium size server to deploy they work and test it]
+1. [Implement some work methodology]
 
 ## Use Git
 
@@ -79,76 +78,51 @@ Let's assume that you need to work on a new feature. This are the steps that you
 
 ![Git Workflow New Feature]({{site.baseurl}}/img/git-workflow-new-feature.png)
 
-Always have at least two main branches:
+### Some Rules
 
-- **Master** will have the lastest stable version of your project  
-- **Devel** will have all the new features for the next version of your project
+- DO NOT commit directly to master
+- DO NOT commit to "keep a copy of this". Git is not a "temp" folder
+- DO NOT commit credentials of any kind to any branch
+- RTFM
+  - https://git-scm.com/doc
+  - https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
 
-Developers shouldn't make changes directly into **devel** nor **master**
+### A more advanced pattern
 
-Every time a developer need to work on a **feature** or **bug** she/he will create a new branch from **devel** or **master** as the starting point.
-
-This new branch will have the following pattern:
-
-- For features: **feature/issue-\#**
-- For bugs: **bug/issue-\#**
-
-Where \# will be the issue number on your bug tracker.
-
-A similar workflow can be found at: [http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/)
-
-<a id="deploy-gitlab"></a>
-## Create a new instance and deploy GitLab
-
-GitLab is like github, but self hosted. This includes: git repository management, code reviews, issue tracking, wikis, user management, milestones, etc.
-
-You will use this for managing your project.
-
-Make sure to use labels on your tickets such as bug, discussion, feature, etc.
-
-[Download GitLab](https://about.gitlab.com/downloads/)
-
-#### Recommended workflow
-
-- Every time a new feature, bug or question comes up it will be written as an issue on the project. And it should be labeled with **bug**, **feature**, **discussion** or any other. 
-- When the developer start to work on the issue he should add the label **wip** to the issue. If any questions arise, he should add the question as new comment on the issue and add the label **discussion** on it.
-- The project manager should be watching the issues progress to know if anyone needs some feedback (**discussion**) and to know what tickets are beign under development (**wip**).
-- Once the task is finished, the developer can add some comment to the issue about how to deploy or use the feature/bugfix, and remove the **wip** label.
-- After the feature/bug is tested and ready to be merge and deploy, the issue's creator can close the ticket.
+[http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/)
 
 <a id="devel-server"></a>
 ## Give your developers a small/medium size server to deploy they work and test it.
 
-Developers need to test they work on the same environment as the production server. For that, you can use tools like [Docker](https://www.docker.com/) in conjunction with [Vagrant](https://www.vagrantup.com/) allowing to have on their own computer an enviroment that matches the production server on a smaller scale.
+Make sure you have a **pre production** environment that matches your **production** environment to test everything (but smaller).
 
-But you NEED a test server to deploy all the new features/bugfixes to be tested before deploying the changes on production.
+You don't need to spent a lot on this, you can launch a VM on [DigitalOcean](https://m.do.co/c/3f5960ccae7c "DigitalOcean") (use this link and get USD 100 of credit on new accounts), [Amazon Web Services](https://aws.amazon.com/lightsail "AWS Lightsail")
 
-<a id="agile-scrum"></a>
-## Implement Agile method using scrum
+You can turn it off and on to save some bucks.
 
-Agile definition:
+
+## Implement some work methodology
+
+I've found that these two works well most of the time, but all teams are different so you need to test wich one works for you and don't be afraid to make changes to it
+
+## Scrum 
+
+Its based on the Agile methodology
+
 > Agile software development is a group of software development methods in which solutions evolve through collaboration between self-organizing, cross-functional teams. It promotes adaptive planning, evolutionary development, early delivery, continuous improvement, and encourages rapid and flexible response to change.
 
 [Wikipedia](https://en.wikipedia.org/wiki/Agile_software_development)
 
-Scrum definition:
+
 > Scrum is an iterative and incremental agile software development methodology for managing product development.
 
-[Wikipedia](https://en.wikipedia.org/wiki/Scrum_\(software_development\))
+[More About it](https://www.atlassian.com/agile/scrum)
 
-In nutshell: You group all your issues into milestones (sprints) and start iterating through them.
 
-The project manager (scrum master) will be in charge of implementing this methodology
+## Kanban
 
-Read the articles on wikipedia for a more detailed explanation.
+> Kanban is a popular framework used to implement agile software development. It requires real-time communication of capacity and full transparency of work. Work items are represented visually on a kanban board, allowing team members to see the state of every piece of work at any time.
 
-<a id="example"></a>
-## Full workflow example
+[More About it](https://www.atlassian.com/agile/kanban)
 
-1. The product owner add the requests to the backlog.
-2. The project manager (scrum master) creates the sprints and assigns the gitlab issues to the developers.
-3. The developer adds the **wip** label to the issue. Creates a new branch and start working.
-4. Once the issue is ready to be tested, the developer deploy his changes on the devel server and add the label **test** to the issue.
-5. When the issue is finish and ready to deploy, the developer remove the label's **wip** and **test** from the issue and submit a merge request to the target branch (master or development).
-6. The project manager will do a code review and accept or reject the merge request.
-7. The new feature/bugfix is deployed into production.
+You can use [Trello](https://trello.com/ "Trello") to create your Kanban boards and assign tasks.
