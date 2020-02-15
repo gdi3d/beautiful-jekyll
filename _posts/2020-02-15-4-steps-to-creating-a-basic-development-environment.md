@@ -126,3 +126,5 @@ It's based on the Agile methodology
 [More About it](https://www.atlassian.com/agile/kanban)
 
 You can use [Trello](https://trello.com/ "Trello") to create your Kanban boards and assign tasks.
+
+*Photo Credits: https://instagram.com/mccutcheonphoto*
