@@ -2,7 +2,7 @@
 layout: post
 published: false
 title: 4 Things to creating a basic development environment
-date: '2015-09-18'
+date: '2020-02-15'
 Category: Posts
 Tags: tips
 ---
