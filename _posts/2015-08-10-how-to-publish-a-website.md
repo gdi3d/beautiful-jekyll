@@ -8,6 +8,7 @@ Tags: 'web, beginner, how to'
 subtitle: What do you need to know and do to create a website
 category: Posts
 tags: web beginner
+bigimg: /img/crates-mounted-on-wall-1090638.jpg
 ---
 ### Overview
 
@@ -77,3 +78,5 @@ ns2.hosting.com
 You will have to setup this address on your domain. For this, all domain providers have an admin panel where you can enter this information.
 
 If you choose to use VPS then the DNS's can be set directly on the server configuration or admin panel in most cases.
+
+*Photo Credits: https://instagram.com/lisa_indever*
