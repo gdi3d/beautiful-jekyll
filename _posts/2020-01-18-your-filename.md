@@ -61,6 +61,24 @@ Pull Requests (or Merge request) it just a fancy name for the step needed to mer
 
 Usually there's a **Merge Master** inside your team and he is the sole responsible of accepting or rejecting the **Pull Request**.
 
+### How many Branches should I use?
+There's no fixed number of branches or anything like that. A minimal common pattern is to have something like this:
+
+- **Master** Latest working version
+- **Pre** Where you first merge the new features or bugfixes to test if everything works ok
+
+### Example
+
+Let's assume that you need to work on a new feature. This are the steps that you should follow to complete the task:
+
+1. Create a new branch from **Master** ([doc about this](https://www.atlassian.com/git/tutorials/using-branches "Git Branching"))
+2. Name it **Feature-#** where # is the id of the ticket where the task description is on your bugtracker (BitBucket, GitHub, Gitlab, etc.)
+3. Code 🐒
+4. Create a Pull Request to **Master** ([doc about this](https://www.atlassian.com/git/tutorials/making-a-pull-request "Pull Request"))
+5. The **Merge Master** accepts your work and gets merged into master
+
+![Git Workflow New Feature]({{site.baseurl}}/img/git-workflow-new-feature.png)
+
 Always have at least two main branches:
 
 - **Master** will have the lastest stable version of your project  
