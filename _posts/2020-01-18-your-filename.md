@@ -23,7 +23,7 @@ What's git?
 
 > Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
  
-Translation: It allows you to keep a **history** of the changes in your code over time and allows multiple developers to work on the same project without worring about screwing things up badly.
+Translation: It allows you to keep a **history** of the changes in your code over time and allows multiple developers to work on the same project without worrying about screwing things up badly.
 
 You can learn how to use it at [https://try.github.io/levels/1/challenges/1](https://try.github.io/levels/1/challenges/1)
 
@@ -41,24 +41,24 @@ What will you do in BitBucket:
 
 - Manage your Git repositories. All your repositories will be stored here (repositories can be public or private)
 - Give access to your developers
-- It has a bugtracker where you will create your tickets for bugs or features that your team need to work on.
+- It has a bug tracker where you will create your tickets for bugs or features that your team needs to work on.
 - Manage pull requests (more on this below)
 
-If you don't want to use BitBucket you can use [GitLab](https://about.gitlab.com/) and [deploy it on your own server](https://about.gitlab.com/install/) or use [github.com](https://github.com/)
+If you don't want to use BitBucket you can use [GitLab](https://about.gitlab.com/) and [deploy it on your server](https://about.gitlab.com/install/) or use [github.com](https://github.com/)
 
-## Basic workflow to work efficently with Git
+## Basic workflow to work efficiently with Git
 
-In git you **save** (commit) your code in branches. Branches are created when you want to create a new feature or work on bug.
+In git, you **save** (commit) your code in branches. Branches are created when you want to create a new feature or work on bug.
 
 There's at least one branch called **Master**. This branch will be your primary branch, where the most updated version of your application will be.
 
-All the new features or bugfix that you develop will have their on branch and then will be merged, using a pull request, to **Master** branch
+All the new features or bugfix that you develop will have their own branch and then will be merged, using a pull request, to **Master** branch
 
 ### Merge and Pull Requests
 Pull Requests (or Merge request) it just a fancy name for the step needed to merge your changes into **Master** branch. 
 *You can merge o ask a pull request to other branches too, it's not limited to Master. But I'm talking about the final step before deploying your changes to production*
 
-Usually there's a **Merge Master** inside your team and he is the sole responsible of accepting or rejecting the **Pull Request**.
+Usually, there's a **Merge Master** inside your team and he is the sole responsible of accepting or rejecting the **Pull Request**.
 
 ### How many Branches should I use?
 There's no fixed number of branches or anything like that. A minimal common pattern is to have something like this:
@@ -71,7 +71,7 @@ There's no fixed number of branches or anything like that. A minimal common patt
 Let's assume that you need to work on a new feature. This are the steps that you should follow to complete the task:
 
 1. Create a new branch from **Master** ([doc about this](https://www.atlassian.com/git/tutorials/using-branches "Git Branching"))
-2. Name it **Feature-#** where # is the id of the ticket where the task description is on your bugtracker (BitBucket, GitHub, Gitlab, etc.)
+2. Name it **Feature-#** where # is the id of the ticket where the task description is on your bug tracker (BitBucket, GitHub, Gitlab, etc.)
 3. Code 🐒
 4. Create a Pull Request to **Master** ([doc about this](https://www.atlassian.com/git/tutorials/making-a-pull-request "Pull Request"))
 5. The **Merge Master** accepts your work and gets merged into master
@@ -91,23 +91,22 @@ Let's assume that you need to work on a new feature. This are the steps that you
 
 [http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/)
 
-<a id="devel-server"></a>
 ## Give your developers a small/medium size server to deploy they work and test it.
 
 Make sure you have a **pre production** environment that matches your **production** environment to test everything (but smaller).
 
-You don't need to spent a lot on this, you can launch a VM on [DigitalOcean](https://m.do.co/c/3f5960ccae7c "DigitalOcean") (use this link and get USD 100 of credit on new accounts), [Amazon Web Services](https://aws.amazon.com/lightsail "AWS Lightsail")
+You don't need to spend a lot on this, you can launch a VM on [DigitalOcean](https://m.do.co/c/3f5960ccae7c "DigitalOcean") (use this link and get USD 100 of credit on new accounts), [Amazon Web Services](https://aws.amazon.com/lightsail "AWS Lightsail")
 
 You can turn it off and on to save some bucks.
 
 
 ## Implement some work methodology
 
-I've found that these two works well most of the time, but all teams are different so you need to test wich one works for you and don't be afraid to make changes to it
+I've found that these two works well most of the time, but all teams are different so you need to test which one works for you and don't be afraid to make changes to it
 
 ## Scrum 
 
-Its based on the Agile methodology
+It's based on the Agile methodology
 
 > Agile software development is a group of software development methods in which solutions evolve through collaboration between self-organizing, cross-functional teams. It promotes adaptive planning, evolutionary development, early delivery, continuous improvement, and encourages rapid and flexible response to change.
 
