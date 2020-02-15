@@ -79,4 +79,4 @@ You will have to setup this address on your domain. For this, all domain provide
 
 If you choose to use VPS then the DNS's can be set directly on the server configuration or admin panel in most cases.
 
-*Photo Credits: https://instagram.com/lisa_indever*
+*Photo Credits: [https://instagram.com/lisa_indever](https://instagram.com/lisa_indever)*
