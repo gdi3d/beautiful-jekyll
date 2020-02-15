@@ -6,57 +6,76 @@ date: '2015-09-18'
 Category: Posts
 Tags: tips
 ---
-Title: 
-
-
 Recently I was asked to help out and organize a small group of programmers to improve their (non-existent) workflow.
 
-This is a small document that I wrote for them
+This is a small document with the recommendation that I wrote for them
 
 # Overview
 
 1. [Use Git](#use-git)
-1. [Create a new instance and deploy GitLab on it](#deploy-gitlab)
+1. [Create an account in BitBucket.org]
 1. [Give your developers a small/medium size server to deploy they work and test it](#devel-server)
 1. [Implement Agile method using scrum](#agile-scrum)
 1. [Full workflow example](#example)
 
-<a id="use-git"></a>
 ## Use Git
 
-Git definition:
+What's git?
 
 > Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
  
-Translation: It allow you to keep a **history** of the changes in your code over time and allows multiple developers to work on the same project without worring about screwing things up badly.
+Translation: It allows you to keep a **history** of the changes in your code over time and allows multiple developers to work on the same project without worring about screwing things up badly.
 
-You can try it at [https://try.github.io/levels/1/challenges/1](https://try.github.io/levels/1/challenges/1)
+You can learn how to use it at [https://try.github.io/levels/1/challenges/1](https://try.github.io/levels/1/challenges/1)
 
 You should also check: [https://www.atlassian.com/git/tutorials/setting-up-a-repository](https://www.atlassian.com/git/tutorials/setting-up-a-repository) to get started with **git**
 
-[Download Git](https://git-scm.com/)
+[Download Git](https://git-scm.com/downloads)
 
-#### Recommended workflow
+## Create an account in BitBucket.org
+
+What's [BitBucket.org](https://bitbucket.org/)?
+
+> Bitbucket is more than just Git code management. Bitbucket gives teams one place to plan projects, collaborate on code, test, and deploy.
+
+What will you do in BitBucket:
+
+- Manage your Git repositories. All your repositories will be stored here (repositories can be public or private)
+- Give access to your developers
+- It has a bugtracker where you will create your tickets for bugs or features that your team need to work on.
+- Manage pull requests (more on this below)
+
+If you don't want to use BitBucket you can use [GitLab](https://about.gitlab.com/) and [deploy it on your own server](https://about.gitlab.com/install/) or use [github.com](https://github.com/)
+
+## Basic workflow to work efficently with Git
+
+In git you **save** (commit) your code in branches. Branches are created when you want to create a new feature or work on bug.
+
+There's at least one branch called **Master**. This branch will be your primary branch, where the most updated version of your application will be.
+
+All the new features or bugfix that you develop will have their on branch and then will be merged, using a pull request, to **Master** branch
+
+### Merge and Pull Requests
+Pull Requests (or Merge request) it just a fancy name for the step needed to merge your changes into **Master** branch. 
+*You can merge o ask a pull request to other branches too, it's not limited to Master. But I'm talking about the final step before deploying your changes to production*
+
+Usually there's a **Merge Master** inside your team and he is the sole responsible of accepting or rejecting the **Pull Request**.
 
 Always have at least two main branches:
 
-- **Master** will hold the lastest stable version of your project  
-- **Devel** will hold all the new features for the next version of your project
+- **Master** will have the lastest stable version of your project  
+- **Devel** will have all the new features for the next version of your project
 
 Developers shouldn't make changes directly into **devel** nor **master**
 
-Every time a developer need to work on a **feature** or **bug** he will create a new branch using **devel** or **master** as starting point.
-
-**Should use devel when**: new feature or bugfix. 
-
-**Should use master when**: hotfix.
+Every time a developer need to work on a **feature** or **bug** she/he will create a new branch from **devel** or **master** as the starting point.
 
 This new branch will have the following pattern:
 
 - For features: **feature/issue-\#**
 - For bugs: **bug/issue-\#**
 
-Where \# will be the issue number on gitlab.
+Where \# will be the issue number on your bug tracker.
 
 A similar workflow can be found at: [http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/)
 
