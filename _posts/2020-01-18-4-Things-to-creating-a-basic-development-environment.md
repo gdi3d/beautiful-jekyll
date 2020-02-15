@@ -1,11 +1,10 @@
 ---
 layout: post
-published: true
+published: false
 title: 4 Things to creating a basic development environment
 date: '2015-09-18'
 Category: Posts
 Tags: tips
-image: /img/acrylic-acrylic-paint-art-artistic-1174952.jpg
 ---
 Recently I was asked to help out and organize a small group of programmers to improve their (non-existent) workflow.
 
@@ -126,5 +125,3 @@ It's based on the Agile methodology
 [More About it](https://www.atlassian.com/agile/kanban)
 
 You can use [Trello](https://trello.com/ "Trello") to create your Kanban boards and assign tasks.
-
-**Credits: Cover picture by https://instagram.com/mccutcheonphoto**
