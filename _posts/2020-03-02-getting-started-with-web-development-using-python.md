@@ -24,8 +24,28 @@ There's a lot of benefits of using containers on a production environment, but I
   
 # Getting Started
 1. Install docker on your system https://docs.docker.com/install/
-2. Spin up a container using the following command on your terminal
+2. Spin up a container and access to it using the following command on your terminal
+[![asciicast](https://asciinema.org/a/DZPuoKziGYC6nt3xiji1JzqKs.svg)](https://asciinema.org/a/DZPuoKziGYC6nt3xiji1JzqKs)
 ```
 docker run -it --name myPythonContainer python:3.6 bash
 ```
 
+Let's break down that command:
+1. **docker** the cli
+2 **run** runs a command inside a container (our command will be **bash**) https://docs.docker.com/engine/reference/commandline/run/
+3. **-it** this flags means:
+    - **i** Keep STDIN open even if not attached
+    - **t** Allocate a pseudo-TTY
+4. **--name** Gives your container a frendly name. In our case is **myPythonContainer** You can ommit it and docker will generate one for you
+
+
+That's it....! now you have python running inside a container, but this is not very usefull right?.
+
+We need to be able to do a few things
+
+1. Run your code inside that container
+2. Open a port to expose your web application
+3. Pass secrets using environment variables
+
+
+### Run your code inside that container
