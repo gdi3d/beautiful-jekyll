@@ -37,6 +37,7 @@ Let's break down that command:
     - **i** Keep STDIN open even if not attached
     - **t** Allocate a pseudo-TTY
 4. **--name** Gives your container a frendly name. In our case is **myPythonContainer** You can ommit it and docker will generate one for you
+5. **python:3.6** here we're telling docker to use an image called **python** with the tag **3.6** 
 
 
 That's it....! now you have python running inside a container, but this is not very usefull right?.
