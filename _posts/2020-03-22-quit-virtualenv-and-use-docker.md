@@ -15,7 +15,7 @@ If you haven't heard about Docker (containers), you could read about it at [http
 
 You can think of docker as a ***micro vm*** without all the overhead of a [Virtual Machine](https://www.tutorialspoint.com/ubuntu/ubuntu_virtual_machines.htm). 
 
-# Launching a first Docker container
+# Launching your first Docker container
 
 1. Install docker on your system https://docs.docker.com/install/
 2. Clone the repo with the app I created for this
@@ -23,14 +23,14 @@ You can think of docker as a ***micro vm*** without all the overhead of a [Virtu
     ```
     git clone git@github.com:gdi3d/quit-virtualenv-use-docker.git
     ```
-
+    
 2. Spin up a container and access to it using the following command on your terminal
   
    ```
    docker run -it --name myPythonContainer --volume $(PWD):/code -p 8080:5000 python:3.6 bash
    ```
    
-3. Let's install our python application requirements  
+3. Install our python application requirements  
     
     ```
     cd /code
@@ -54,8 +54,8 @@ It should return a **Hello**
     989f00e4a7fc  python:3.6  "bash"   50 seconds ago  Up 10 seconds  0.0.0.0:8080->5000/tcp  myPythonContainer
     ```
 
-7. Great, now go back to the terminal where you have the container and close it. First **ctrl+c** to shutdown the python process and then type `exit` to exit the container
-8. You can check the container is no longer running by typing
+7. Great!, now go back to the terminal where you have the container and close it First **ctrl+c** to shutdown the python process and then type `exit` to exit the container
+8. You can check that the container is no longer running by typing
     
     ```
     docker ps
@@ -71,7 +71,7 @@ Part 2
 
 # Creating a custom docker image 
 
-Let's build a custom image of our application.
+Let's build a custom image for our application.
 
 ### Why?
 
@@ -121,9 +121,11 @@ Successfully tagged mydockerimage:latest
 
 The `-t` flag tells docker to build an image with the name `myDockerImage`, the `:`indicates a version for our image (you could also use v1.1, v1.2,... for ex.) and the `.` indicates that the `Dockerfile` file is in the current directory.
 
-This image now has everything that we need to keep developing our application. Let's run the container again
+This image now has everything that we need to keep developing our application. 
 
-1. First, let's delete the older container. Although we've already exited and it's not running there's still a container with the name **myPythonContainer** and you need to delete it to launch a new one.
+Let's run the container again:
+
+1. First, delete the older container. Although we've already exited and it's not running there's still a container with the name **myPythonContainer** and you need to delete it to launch a new one with the same name.
 
     ```
     docker ps -a
@@ -139,16 +141,16 @@ This image now has everything that we need to keep developing our application. L
     ```
     docker rm myPythonContainer
     ```
-2. Run our new container updating the old command
+2. Run our new container
 
     ```
     docker run -d --name myPythonContainer --volume $(PWD):/code -p 8080:5000 mydockerimage
     ```
-    Notice that these few changes
-    - You will see a response with and id like **5d82484a63134dc911e8d2184a881950817b5d8bd07d7a64e1ee1b8207394ef9** that's the ID of your container and it indicates that it has been launched.
-    - Not using **-it** and instead, we're using **-d** and that means that we run the container a daemon.
-    - Not using at the end of the command **python:3.6** we're now using our custom image **mydockerimage**
-    - Not using a command anymore. This is because we've already set that in our Dockerfile in the line `ENTRYPOINT ["python", "/code/main.py"]`
+    Notice the changes in this command compared with the first we used to launch our first container:
+    - You will see a response with and ID like **5d82484a63134dc911e8d2184a881950817b5d8bd07d7a64e1ee1b8207394ef9** that's the ID of your container and it indicates that it has been launched.
+    - Not using **-it**. We're using **-d**, that means that we run the container in the background.
+    - Not using the image **python:3.6**, we're now using our new custom image **mydockerimage**
+    - Not using an explicit command anymore. This is because we've already set that in our Dockerfile in the line `ENTRYPOINT ["python", "/code/main.py"]`
 3. One thing you might notice is that we don't longer see what's happening inside the container. To be able to see what's going on inside the docker you can always use
 
     ```
