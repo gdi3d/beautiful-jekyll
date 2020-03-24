@@ -11,7 +11,7 @@ bigimg: /img/business-commerce-container-export-379964.jpg
 ---
 Don't get me wrong, I really like [virtualenv](virtualenv.pypa.io "virtualenv.pypa.io") and it's pretty useful in some scenarios. But sometimes you have to deal with OS dependencies and that forces you to install new packages and it can get a bit messy in some scenarios.
 
-If you haven't heard about Docker (containers), you could read about it at [https://www.tutorialspoint.com/docker/index.htm](https://www.tutorialspoint.com/docker/index.htm)
+If you haven't heard about Docker (containers), you can read more about it at [https://www.tutorialspoint.com/docker/index.htm](https://www.tutorialspoint.com/docker/index.htm)
 
 You can think of docker as a ***micro vm*** without all the overhead of a [Virtual Machine](https://www.tutorialspoint.com/ubuntu/ubuntu_virtual_machines.htm). 
 
@@ -54,7 +54,7 @@ It should return a **Hello**
     989f00e4a7fc  python:3.6  "bash"   50 seconds ago  Up 10 seconds  0.0.0.0:8080->5000/tcp  myPythonContainer
     ```
 
-7. Great!, now go back to the terminal where you have the container and close it First **ctrl+c** to shutdown the python process and then type `exit` to exit the container
+7. Great!, now go back to the terminal where you have the container and close it. First **ctrl+c** to shutdown the python process and then type `exit` to exit the container
 8. You can check that the container is no longer running by typing
     
     ```
@@ -131,7 +131,7 @@ Let's run the container again:
     docker ps -a
     ```
     
-    will list all the container, even the ones that are terminated:
+    this command will list all the container, even the ones that are terminated:
     
     ```
     CONTAINER ID  IMAGE       COMMAND  CREATED       STATUS                    PORTS  NAMES
@@ -151,7 +151,7 @@ Let's run the container again:
     - Not using **-it**. We're using **-d**, that means that we run the container in the background.
     - Not using the image **python:3.6**, we're now using our new custom image **mydockerimage**
     - Not using an explicit command anymore. This is because we've already set that in our Dockerfile in the line `ENTRYPOINT ["python", "/code/main.py"]`
-3. One thing you might notice is that we don't longer see what's happening inside the container. To be able to see what's going on inside the docker you can always use
+3. One thing you might notice is that we no longer see what's happening inside the container. To be able to see what's going on inside the docker you can always use
 
     ```
     docker logs -f myPythonContainer
@@ -175,9 +175,10 @@ Docker and other containers technologies are based on [LXC](https://linuxcontain
 
 When you launch a container, just like a VM, you can choose what OS you want and you can pre-install software on it or use a public image already created by others.
 
-The good part is that you can spin up a container, do your tests, run your code and then turn it off and forget about it and you don't need to install any dependencies on your OS for your code.
+The good part is that you can spin up a container, do your tests, run your code and then turn it off and forget about it, and you don't need to install any dependencies on your OS for your code.
 
-There's a lot of benefits of using containers on a production environment, but I'm not going to get into that in this post. If you want to know more about that make sure you read about 
+There's a lot of benefits of using containers on a production environment, but I'm not going to get into that in this post. If you want to know more about it:
+ 
 - Kubernetes  
   [https://kubernetes.io/](https://kubernetes.io/)  
   [https://www.tutorialspoint.com/kubernetes/index.htm](https://www.tutorialspoint.com/kubernetes/index.htm)
