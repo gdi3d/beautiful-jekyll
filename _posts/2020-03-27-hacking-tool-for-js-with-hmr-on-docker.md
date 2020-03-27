@@ -29,8 +29,9 @@ This ended up the following tool:
 https://github.com/gdi3d/js-hmr-osx-docker-helper
 
 > Sometimes HMR tools don't work quite right when using docker on some OS (OSX) with a mounted volume. You change a file and nothing happens, it doesn't detect the change and no rebuild happens.
-
+>
 > This hack-script will make sure your HMR tools (webpack, parcel, etc) sees that a file has been changed/created/deleted/etc.
-
+>
 > It uses the command touch to update the file from inside the container helping the HMR tools to be aware of the update.
 
+*Photo Credit: https://instagram.com/burakkostak*
