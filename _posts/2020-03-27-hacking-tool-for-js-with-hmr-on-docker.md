@@ -18,13 +18,13 @@ After reading about HMR (Hot Module Replacement) with webpack I realized it's wa
 
 It didn't work 😒.
 
-For some reason, whenever I changed a file on my editor **Parcel** didn't rebuild my app. I read all the docs and try every workaround but no luck.
+For some reason, whenever I changed a file on my editor **Parcel** didn't rebuild my app. I read all the docs and try every workaround without any luck.
 
 I did some testing and the only way it worked was if I did a **touch** on the files from inside the container.
 
 Just to be clear, this is not a problem with **Parcel** but on how the volume it's working on docker and I guess it might have to be with some cache issue.
 
-This ended up the following tool:
+After all this, finally I ended up building the following tool:
 
 [https://github.com/gdi3d/js-hmr-osx-docker-helper](https://github.com/gdi3d/js-hmr-osx-docker-helper)
 
