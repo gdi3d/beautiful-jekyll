@@ -26,7 +26,7 @@ Just to be clear, this is not a problem with **Parcel** but on how the volume it
 
 This ended up the following tool:
 
-https://github.com/gdi3d/js-hmr-osx-docker-helper
+[https://github.com/gdi3d/js-hmr-osx-docker-helper](https://github.com/gdi3d/js-hmr-osx-docker-helper)
 
 > Sometimes HMR tools don't work quite right when using docker on some OS (OSX) with a mounted volume. You change a file and nothing happens, it doesn't detect the change and no rebuild happens.
 >
