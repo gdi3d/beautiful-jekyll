@@ -185,4 +185,4 @@ There's a lot of benefits of using containers on a production environment, but I
 - Docker Swarm  
   [https://docs.docker.com/engine/swarm/](https://docs.docker.com/engine/swarm/)  
   
-*Photo Credit: https://instagram.com/hikaique*
+*Photo Credits: [https://instagram.com/hikaique](https://instagram.com/hikaique)*
