@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Hacking tool for HMR on docker
-date: '2020-27-03'
+date: '2020-03-27'
 subtitle: Sometimes HMR tools don't work quite right when using docker on some OS (OSX) with a mounted volume. You change a file and nothing happens, it doesn't detect the change and no rebuild happens.
 category: Posts
 tags: javascript docker HMR
