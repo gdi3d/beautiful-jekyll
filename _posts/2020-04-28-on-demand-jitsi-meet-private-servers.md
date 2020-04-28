@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Ya!Meeting On Demand Jitsi Meet Private Servers for videoconferences
+title: Ya!Meeting On-Demand Jitsi Meet Private Servers for videoconferences
 date: '2020-04-28'
 subtitle: Ya!Meeting.com My new side project to provide Jitsi Meet Private Servers On Demand for every videconference meeting
 category: Posts
