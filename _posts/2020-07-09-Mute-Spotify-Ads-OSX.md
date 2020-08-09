@@ -39,6 +39,11 @@ The script does the following:
 
 5. To exit the program just **close the terminal app or press Ctrl+c**
 
+# Why not blocking Ads instead???
+I used to have all the Spotify Ads DNS blocked but that stopped working.
+
+Besides, I was bored that Saturday noon and I wanted to give it a try.
+
 # Website
 
 [https://gdi3d.github.io/mute-spotify-ads-mac-osx/](https://gdi3d.github.io/mute-spotify-ads-mac-osx/)
@@ -46,6 +51,7 @@ The script does the following:
 Here's the repo if you want to know more:
 
 [https://github.com/gdi3d/mute-spotify-ads-mac-osx](https://github.com/gdi3d/mute-spotify-ads-mac-osx)
+
 
 
 *Photo Credits: (https://www.pexels.com/@burst)[https://www.pexels.com/@burst]*
