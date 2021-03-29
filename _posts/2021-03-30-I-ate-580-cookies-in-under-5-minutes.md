@@ -56,4 +56,4 @@ Here's the list, ordered from biggest to smallest (screenshots below list):
 |27|GetAdvice|1 (this is my site. I had to do it, sorry 😇)|![cookies-get-advice](../img/cookies-get-advice.png)|
 
 
-*Photo credits: [https://www.pexels.com/@leigh-patrick-14477](https://www.pexels.com/@leigh-patrick-14477)
+*Photo credits: [https://www.pexels.com/@leigh-patrick-14477](https://www.pexels.com/@leigh-patrick-14477)*
