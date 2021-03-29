@@ -1,13 +1,15 @@
 ---
 layout: post
 published: true
-title: I Ate 580 Cookies in under 5 Minutes
+title: I Ate 580 Cookies Under 5 Minutes
 date: '2021-03-30'
 subtitle: How I survived after eating 580 cookies under 5 minutes and what happend next
 category: Posts
 tags: privacy 
 bigimg: /img/i-ate-cookies-survived.jpg
 ---
+
+I was feeling hungry that day, but I never imagined that I could end up liked I did. Knowing all that I know today, next time I will be more carefull.
 
 If you're here thinking: **'how can someone eat some much!! 🤯'** I'm sorry to tell you that the title was just clickbait. (Although I do eat a lot of real cookies )
 
