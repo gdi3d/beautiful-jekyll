@@ -1,28 +1,28 @@
 ---
 layout: post
 published: true
-title: I Ate 580 Cookies Under 5 Minutes
+title: I Ate 580 Cookies Under 5 Minutes. No Milk
 date: '2021-03-30'
-subtitle: How I survived after eating 580 cookies under 5 minutes and what happend next
+subtitle: How I survived after eating 580 cookies under 5 minutes and what happened next
 category: Posts
 tags: privacy 
 bigimg: /img/i-ate-cookies-survived.jpg
 ---
 
-I was feeling hungry that day, but I never imagined that I could end up liked I did. Knowing all that I know today, next time I will be more carefull.
+I was feeling hungry that day, but I never imagined that I could end up liked I did. Knowing all that I know today, next time I will be more careful.
 
 If you're here thinking: **'how can someone eat some much!! 🤯'** I'm sorry to tell you that the title was just clickbait. (Although I do eat a lot of real cookies )
 
-In this post I'm going to show how cookies on sites have gone wild.
+In this post, I'm going to show how cookies on sites have gone wild.
 
-I'm not new to cookies nor privacy issues on the internet, but a few days ago I was surprise when I accidentally saw how many cookies outlook was using when I opened my email.
+I'm not new to cookies nor privacy issues on the internet, but a few days ago I was surprised when I accidentally saw how many cookies outlook was using when I opened my email.
 
-> I'm not saying that cookies count have a direct relation with privacy. But I'm surprise on how many each site end up installing.
+> I'm not saying that cookies count has a direct relation with privacy. But I'm surprised at how many each site ends up installing.
 
-Some context before I post the screenshoots:
+Some context before I post the screenshots:
 
 - I live in Europe, so the GDPR banners are shown on almost every site and I accepted the default cookie options.
-- I was logged in some sites.
+- I was logged in to some sites.
 
 Here's the list, ordered from biggest to smallest (screenshots below list):
 
