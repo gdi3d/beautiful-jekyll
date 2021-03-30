@@ -1,19 +1,19 @@
 ---
 layout: post
 published: true
-title: I Ate 580 Cookies Under 5 Minutes. No Milk
+title: I Ate 602 Cookies Under 5 Minutes. No Milk
 date: '2021-03-30'
-subtitle: How I survived after eating 580 cookies under 5 minutes and what happened next
+subtitle: How I survived after eating 602 cookies under 5 minutes and what happened next
 category: Posts
 tags: privacy 
 bigimg: /img/i-ate-cookies-survived.jpg
 ---
 
-I was feeling hungry that day, but I never imagined that I could end up liked I did. Knowing all that I know today, next time I will be more careful.
+I was feeling hungry that day, but I never imagined that I could end up like I did. Knowing all the stuff that I know today, next time I will be more careful.
 
-If you're here thinking: **'how can someone eat some much!! 🤯'** I'm sorry to tell you that the title was just clickbait. (Although I do eat a lot of real cookies )
+If you're here thinking: **'how can someone eat that much!! 🤯'** I'm sorry to tell you that the title was just clickbait. (Although I do actually eat a lot of cookies )
 
-In this post, I'm going to show how cookies on sites have gone wild.
+In this post, I'm going to show how cookies on internet sites have gone wild.
 
 I'm not new to cookies nor privacy issues on the internet, but a few days ago I was surprised when I accidentally saw how many cookies outlook was using when I opened my email.
 
@@ -23,9 +23,9 @@ Some context before I post the screenshots:
 
 - I live in Europe, so the GDPR banners are shown on almost every site and I accepted the default cookie options.
 - I was logged in to some sites.
+- It took me 5 minutes to enter all those sites, and cookies count adds up to 602
 
 Here's the list, ordered from biggest to smallest (screenshots below list):
-
 
 | # | site | Cookies installed | Screenshot |
 |---|---|---|---|
@@ -57,5 +57,15 @@ Here's the list, ordered from biggest to smallest (screenshots below list):
 |26|HackerNews|3|![cookies-hackernews](../img/cookies-hackernews.png)|
 |27|GetAdvice|1 (this is my site. I had to do it, sorry 😇)|![cookies-get-advice](../img/cookies-get-advice.png)|
 
+And here's a list of some of my favorites cookies, just in case some gets hungry:
+
+|Name|Link|Pic|
+|---|---|---|
+|Alfajorcitos Jorgito|https://alittletaste.com/products/jorgito-alfajorcitos|![Alfajorcitos Jorgito](../img/jorgito-alfajorcitos.jpg)|
+|Chocolinas|https://alittletaste.com/products/bagley-chocolinas-chocolate-cookies|![Chocolinas](../img/chocolinas.jpg)|
+|Melba|https://alittletaste.com/products/terrabusi-melba-galletitas|![Melba](../img/melba.jpg)|
+|Don Satur Salados|https://alittletaste.com/products/don-satur-bizcochos-salados|![Don Sturn Salado](../img/don-satur-grasa.jpg)|
+|Rumba|https://alittletaste.com/products/bagley-rumba-chocolate-cookies-with-coconut-filling|![Rumba](../img/rumba.jpg)|
+|Don Satur Dulce|https://alittletaste.com/products/don-satur-bizcochos-dulces-argentinian-sweet-biscuits|![Don Satur Dulce](../img/don-satur-dulces.jpg)|
 
 *Photo credits: [https://www.pexels.com/@leigh-patrick-14477](https://www.pexels.com/@leigh-patrick-14477)*
