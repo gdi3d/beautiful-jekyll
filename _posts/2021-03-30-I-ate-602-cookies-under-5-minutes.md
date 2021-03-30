@@ -61,11 +61,11 @@ And here's a list of some of my favorites cookies, just in case some gets hungry
 
 |Name|Link|Pic|
 |---|---|---|
-|Alfajorcitos Jorgito|https://alittletaste.com/products/jorgito-alfajorcitos|![Alfajorcitos Jorgito](../img/jorgito-alfajorcitos.jpg)|
-|Chocolinas|https://alittletaste.com/products/bagley-chocolinas-chocolate-cookies|![Chocolinas](../img/chocolinas.jpg)|
-|Melba|https://alittletaste.com/products/terrabusi-melba-galletitas|![Melba](../img/melba.jpg)|
-|Don Satur Salados|https://alittletaste.com/products/don-satur-bizcochos-salados|![Don Sturn Salado](../img/don-satur-grasa.jpg)|
-|Rumba|https://alittletaste.com/products/bagley-rumba-chocolate-cookies-with-coconut-filling|![Rumba](../img/rumba.jpg)|
-|Don Satur Dulce|https://alittletaste.com/products/don-satur-bizcochos-dulces-argentinian-sweet-biscuits|![Don Satur Dulce](../img/don-satur-dulces.jpg)|
+|Alfajorcitos Jorgito|[https://alittletaste.com/products/jorgito-alfajorcitos](https://alittletaste.com/products/jorgito-alfajorcitos)|![Alfajorcitos Jorgito](../img/jorgito-alfajorcitos.jpg)|
+|Chocolinas|[https://alittletaste.com/products/bagley-chocolinas-chocolate-cookies](https://alittletaste.com/products/jorgito-alfajorcitos)|![Chocolinas](../img/chocolinas.jpg)|
+|Melba|[https://alittletaste.com/products/terrabusi-melba-galletitas](https://alittletaste.com/products/jorgito-alfajorcitos)|![Melba](../img/melba.jpg)|
+|Don Satur Salados|[https://alittletaste.com/products/don-satur-bizcochos-salados](https://alittletaste.com/products/jorgito-alfajorcitos)|![Don Sturn Salado](../img/don-satur-grasa.jpg)|
+|Rumba|[https://alittletaste.com/products/bagley-rumba-chocolate-cookies-with-coconut-filling](https://alittletaste.com/products/jorgito-alfajorcitos)|![Rumba](../img/rumba.jpg)|
+|Don Satur Dulce|[https://alittletaste.com/products/don-satur-bizcochos-dulces-argentinian-sweet-biscuits](https://alittletaste.com/products/jorgito-alfajorcitos)|![Don Satur Dulce](../img/don-satur-dulces.jpg)|
 
 *Photo credits: [https://www.pexels.com/@leigh-patrick-14477](https://www.pexels.com/@leigh-patrick-14477)*
