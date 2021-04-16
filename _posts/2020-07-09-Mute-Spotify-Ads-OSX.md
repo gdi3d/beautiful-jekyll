@@ -55,5 +55,4 @@ Here's the repo if you want to know more:
 [https://github.com/gdi3d/mute-spotify-ads-mac-osx](https://github.com/gdi3d/mute-spotify-ads-mac-osx)
 
 
-
 *Photo Credits: (https://www.pexels.com/@burst)[https://www.pexels.com/@burst]*
