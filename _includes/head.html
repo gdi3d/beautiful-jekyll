@@ -87,7 +87,7 @@
 
   {% if page.share-img %}
   <meta property="og:image" content="{{ page.share-img }}" />
-  {% elseif page.bigimg %}
+  {% elsif page.bigimg %}
   <meta property="og:image" content="{{ site.url }}{{ page.bigimg }}" />
   {% elsif site.avatar %}
   <meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />
@@ -117,7 +117,7 @@
 
   {% if page.share-img %}
   <meta name="twitter:image" content="{{ page.share-img }}" />
-  {% elseif page.bigimg %}
+  {% elsif page.bigimg %}
   <meta property="twitter:image" content="{{ site.url }}{{ page.bigimg }}" />
   {% elsif site.avatar %}
   <meta name="twitter:image" content="{{ site.url }}{{ site.avatar }}" />
