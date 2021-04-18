@@ -9,7 +9,7 @@ tags: scrum
 bigimg: /img/agile-scrum-in-real-life.jpg
 ---
 
-> # TL;DR Pointing Stories is hard and confusing 😭
+> # TL;DR Pointing Stories is hard and confusing *😭*
 
 After many years of being a fullstack developer, in 2016 I got my chance to build and manage a team.
 
@@ -24,7 +24,7 @@ My tasks and roles were clear:
 - Be the Team leader
 - Go live and don't crash and burn 
 
-> *Fun fact: I failed more than once in more than one role* 🙃
+> *Fun fact: I failed more than once in more than one role 🙃*
 
 # Some context
 The team was in charge of:
@@ -77,7 +77,7 @@ We changed according to our needs:
 - Sometimes I decided which members were present.
 - Sometimes members decided by the team were present.
 
-> *Fun fact: Sometimes it took us one whole meeting just to break down a Story or Task.* 😓
+> *Fun fact: Sometimes it took us one whole meeting just to break down a Story or Task. 😓*
 
 #### The Story/tasks points (the hard part)
 
@@ -105,18 +105,18 @@ One thing that might be easier and that we didn't try is to use sizes like XS, S
 
 Having words instead of numbers maybe would be easier for detaching ourselves from the notion of time.
 
-> *Fun fact: Sometimes I didn't warn them on a particular Story or Task points if I thought that the team was over or underestimating it. This helped built trust and awareness in the long term* 💪🏻
+> *Fun fact: Sometimes I didn't warn them on a particular Story or Task points if I thought that the team was over or underestimating it. This helped built trust and awareness in the long term 💪🏻*
 
 #### Sprint Planning
 
 This meeting was done on the lasts 3 or 4 days of the ongoing Sprint and on Fridays, when we officially agreed on the final version for the incoming Sprint.
 
-> *Fun fact: Unless we were pressured to deliver something important, in some Sprints I'd let the team go over/under what I believed their capacity was, without warning them just to see the results and performance.* 🤔
+> *Fun fact: Unless we were pressured to deliver something important, in some Sprints I'd let the team go over/under what I believed their capacity was, without warning them just to see the results and performance. 🤔*
 
 #### Sprint Reviews
 These meetings took place on the last day of the Sprint, on Fridays. Sometimes this meeting replaced the Daily Standup if everything was completed.
 
-> *Fun fact: Sometimes the Sprint was not 100% completed!* 😮
+> *Fun fact: Sometimes the Sprint was not 100% completed! 😮*
 
 #### Retrospective
 We only did it when it was necessary.
@@ -126,6 +126,6 @@ How to determine that?
 - If I wasn't happy with the sprint results or if I saw problems within the team I would schedule a meeting for the first week of the new Sprint.
 - The last day of the sprint or during the first week of the new Sprint I'd ask the team if they needed a Retro and schedule one if they did.
 
-> *Fun fact: We voted on who was the team member designated to take notes because we all hated writing* 😂
+> *Fun fact: We voted on who was the team member designated to take notes because we all hated writing 😂*
 
 *Photo Credit: https://www.pexels.com/@fauxels*
