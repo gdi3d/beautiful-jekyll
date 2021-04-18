@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Agile Scrum in real life 😰
+title: Agile Scrum in real life 🧑🏽‍💻
 date: 2021-04-18
 subtitle: My journey as a Scrum Master implementing Scrum on my team
 category: Posts
