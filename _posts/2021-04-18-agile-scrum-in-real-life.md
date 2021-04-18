@@ -128,4 +128,4 @@ How to determine that?
 
 > *Fun fact: We voted on who was the team member designated to take notes because we all hated writing* <span style="font-style:normal">😂</span>
 
-*Photo Credit: https://www.pexels.com/@fauxels*
+*Photo Credit: [https://www.pexels.com/@fauxels](https://www.pexels.com/@fauxels)*
