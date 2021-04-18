@@ -29,6 +29,7 @@ navbar-links:
     - Stores ERP: "https://www.storelogger.com/"
     - Mute Spotify Ads: "https://gdi3d.github.io/mute-spotify-ads-mac-osx/"
     - GetAdvice: "https://getadvice.github.io/"
+    - My Wallet: "https://gdi3d.github.io/my_wallet/"
   Author's home: "https://github.com/gdi3d"
 
 # Image to show in the navigation bar - image must be a square (width = height)
