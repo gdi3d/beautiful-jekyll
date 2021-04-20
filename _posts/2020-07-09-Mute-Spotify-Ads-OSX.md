@@ -46,7 +46,7 @@ I used to have all the Spotify Ads DNS blocked but that stopped working.
 
 Besides, I was bored that Saturday noon and I wanted to give it a try.
 
-# Website
+# Website and Github Repo
 
 [https://gdi3d.github.io/mute-spotify-ads-mac-osx/](https://gdi3d.github.io/mute-spotify-ads-mac-osx/)
 
@@ -55,4 +55,4 @@ Here's the repo if you want to know more:
 [https://github.com/gdi3d/mute-spotify-ads-mac-osx](https://github.com/gdi3d/mute-spotify-ads-mac-osx)
 
 
-*Photo Credits: (https://www.pexels.com/@burst)[https://www.pexels.com/@burst]*
+*Photo Credits: [https://www.pexels.com/@burst](https://www.pexels.com/@burst)*
