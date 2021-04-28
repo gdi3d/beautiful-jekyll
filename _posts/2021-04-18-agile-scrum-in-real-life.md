@@ -7,6 +7,7 @@ subtitle: My journey as a Scrum Master implementing Scrum on my team
 category: Posts
 tags: scrum
 bigimg: /img/agile-scrum-in-real-life.jpg
+share-img: /img/share-agile-scrum-in-real-life.jpg
 ---
 
 > # TL;DR Pointing Stories is hard and confusing <span style="font-style:normal">😭</span>

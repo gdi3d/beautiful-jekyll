@@ -8,6 +8,7 @@ subtitle: Start using docker in your dev environment
 category: Posts
 tags: beginner docker python
 bigimg: /img/business-commerce-container-export-379964.jpg
+share-img: /img/share-quit-virtualenv-use-docker.jpg
 ---
 Don't get me wrong, I really like [virtualenv](virtualenv.pypa.io "virtualenv.pypa.io") and it's pretty useful in some scenarios. But sometimes you have to deal with OS dependencies and that forces you to install new packages and it can get a bit messy in some scenarios.
 

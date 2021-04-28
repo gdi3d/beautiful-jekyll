@@ -7,6 +7,7 @@ subtitle: I created this small script that will mute your computer audio when Sp
 category: Posts
 tags: bash spotify hack
 bigimg: /img/pexels-burst-373945.jpg
+share-img: /img/share-mute-spotify-ads-mac.jpg
 ---
 I use Spotify on my computer from time to time but I hate when the Ads start playing.
 

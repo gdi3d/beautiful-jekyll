@@ -7,6 +7,7 @@ subtitle: Sometimes HMR tools don't work quite right when using docker on some O
 category: Posts
 tags: javascript docker HMR
 bigimg: /img/broken-heart-love-sad-14303.jpg
+share-img: /img/share-hacking-tool-for-hmr-docker.jpg
 ---
 I'm starting a new project and I need to build the frontend for it. I decided to use Vue.js and get back to the frontend for a few days.
 

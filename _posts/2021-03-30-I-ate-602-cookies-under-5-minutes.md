@@ -7,6 +7,7 @@ subtitle: How I survived after eating 602 cookies under 5 minutes and what happe
 category: Posts
 tags: privacy 
 bigimg: /img/i-ate-cookies-survived.jpg
+share-img: /img/share-i-ate-cookies-survived.jpg
 ---
 
 I was feeling hungry that day, but I never imagined that I could end up like I did. Knowing all the stuff that I know today, next time I will be more careful.

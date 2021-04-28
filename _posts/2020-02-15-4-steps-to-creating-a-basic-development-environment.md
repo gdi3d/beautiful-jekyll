@@ -6,6 +6,7 @@ date: '2020-02-15'
 Category: Posts
 Tags: tips
 bigimg: /img/acrylic-acrylic-paint-art-artistic-1174952.jpg
+share-img: /img/share-5-steps-landing-page-quickstart.jpg
 ---
 Recently I was asked to help out and organize a small group of programmers to improve their (non-existent) workflow.
 
