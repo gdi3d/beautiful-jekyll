@@ -88,4 +88,4 @@ What you're doing it's just adding up the code for each permissions in each cate
 
 
 # Read Official Docs, it's always helpful
-For more detailed information read the manual (https://linux.die.net/Intro-Linux/sect_03_04.html)[https://linux.die.net/Intro-Linux/sect_03_04.html]
+For more detailed information read the manual [https://linux.die.net/Intro-Linux/sect_03_04.html](https://linux.die.net/Intro-Linux/sect_03_04.html)
