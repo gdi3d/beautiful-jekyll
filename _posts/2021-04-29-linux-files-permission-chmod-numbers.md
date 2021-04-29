@@ -14,7 +14,7 @@ One thing to know about Linux is that you have file permissions for 3 categories
 
 1. User: The user who owns the file.
 2. Group: Users belong to groups. Users in the same group also own the file.
-3. Others: Permissions for users that are not the owner of the file and don't belong to the group.
+3. Others: Permissions for users that are not the owners of the file and don't belong to the group.
 
 # Example
 Let's assume that your username is *mary* and you run an *ls* on your home folder
@@ -33,15 +33,15 @@ Permissions are composed of 9 characters. In our case, those 9 characters are **
 > Any permission not granted will be represented by a dash (-).  
 
 
-Now, it might seem confusing reading **rwxr--r--**. This because permissions for the 3 categories permissions are put all together.
+Now, it might seem confusing reading **rwxr--r--**. This is because permissions for the 3 categories are put all together without spaces or delimiters of any kind.
 
-But you can look it like this to better understand it:
+But you can look at it like this to better understand it:
 
 ```
 mary   accounting   Others    8 Jan 190 06:47 my_super_script.sh
 rwx       r--        r--
 ```
-> Here we broke down the 9 character string rwxr--r-- into 3 groups. Each one representing the three categories we mentioned early (user, group, others).
+> Here we broke down the 9 character string rwxr--r-- into 3 groups. Each one representing the three categories we mentioned earlier (user, group, others).
 
 |User Permission (mary)|Group Permissions (accounting)|Permissions for others|
 |:---:|:---:|:---:|
@@ -49,8 +49,8 @@ rwx       r--        r--
 
 
 - User Permission: The user *mary* can read, write and execute the file **(rwx)**.
-- Group Permissions: Users in the group *accounting* can read the file but they can't write to it or execute it **(r--)**
-- Permission for others: Users that are not *mary* or don't belong to the *accounting* group can read the file but they can't write to it or execute it **(r--)**
+- Group Permissions: Users in the group *accounting* can read the file but they can't write it or execute it **(r--)**
+- Permission for others: Users that are not *mary* or don't belong to the *accounting* group can read the file but they can't write it or execute it **(r--)**
 
 # Changing permissions and those numbers on the chmod command
 
@@ -84,7 +84,7 @@ Let's see some examples and use the table above to better understand it
 
 > Remember that you set permissions for 3 categories: user, group and others
 
-What you're doing it's just adding up the code for each permissions in each category.
+What you're doing it's just adding up the code for each permission in each category.
 
 
 # Read Official Docs, it's always helpful
