@@ -79,7 +79,8 @@ Let's see some examples and use the table above to better understand it
 | chmod 600| 6 | 0 | 0 |
 | | 4+2 (read + write) | No read, write or execute | No read, write or execute |
 | chmod 777| 7 | 7 | 7 |
-| | 4+2+1 (read + write + execute)|4+2+1 (read + write + execute)|4+2+1 (read + write + execute)|
+| | 4+2+1 (read + write + execute)|4+2+1 (read + write + execute)|4+2+1 (read + write + execute)|  
+
 
 > Remember that you set permissions for 3 categories: user, group and others
 
