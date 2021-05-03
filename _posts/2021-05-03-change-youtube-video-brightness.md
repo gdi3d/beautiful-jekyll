@@ -13,7 +13,7 @@ share-img: /img/share-change-youtube-video-brightness.jpg
 > TL;DR [https://gdi3d.github.io/change-youtube-videos-brightness/](https://gdi3d.github.io/change-youtube-videos-brightness/)
 
 <video width="480" controls>
-    <source src="/img/kantcshit-sample.m4v" type="video/m4v">
+    <source src="/img/kantcshit-sample.mp4" type="video/mp4">
 </video>
 
 I usually watch movies or YouTube videos with my external monitor. But sometimes the video is too dark and turning up the monitor's brightness it's not enough.
