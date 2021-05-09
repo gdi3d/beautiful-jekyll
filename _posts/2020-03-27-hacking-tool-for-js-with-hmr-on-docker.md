@@ -35,4 +35,4 @@ After all this, finally I ended up building the following tool:
 >
 > It uses the command touch to update the file from inside the container helping the HMR tools to be aware of the update.
 
-*Photo Credits: (https://instagram.com/burakkostak)[https://instagram.com/burakkostak]*
+*Photo Credits: [https://instagram.com/burakkostak](https://instagram.com/burakkostak)*
