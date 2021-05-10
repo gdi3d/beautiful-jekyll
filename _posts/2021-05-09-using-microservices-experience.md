@@ -10,9 +10,11 @@ bigimg: /img/microservices-experience.jpg
 share-img: /img/share-microservices-experience.jpg
 ---
 
-> TL;DR It's a good idea to use microservices for a team of three or four people that only handles one or two microservices. Otherwise stay away!
+> TL;DR It's a good idea to use microservices for a team of three or four people that only handles one or two microservices. Otherwise, stay away!
 
-I started using the microservice architecture in 2015 when I had to refactory a medium-size Django app into pieces. Since then I have used microservices for both work and personal projects.
+# Falling in love with Microservices 🥰
+
+I started using the microservice architecture in 2015 when I had to refactory a medium-size Django app into pieces. Since then I have been using microservices for both work and personal projects non-stop.
 
 At first glance microservices are great, it looks like you get a lot of benefits and it makes you think harder about every component of your application.
 
@@ -26,15 +28,17 @@ At first glance microservices are great, it looks like you get a lot of benefits
 > 
 > source: [https://microservices.io/](https://microservices.io/)
 
-I was very happy with having my multiple repos, big docker-compose.yml files, multiples databases, stitching everything together, and watch my software work, or kind of. But that excitement went away when I actually had to keep everything working and updating things.
+I was very happy with having my multiple repos, big docker-compose.yml files, multiples databases, stitching everything together, and watch my software work, or kind of. But that excitement went away when I had to keep everything working and updating things.
 
-Now I've come to the conclusion that microservices are not a good idea when you have a team of ten or fewer people and more than three or four microservices. 
+# When reality kicks in 😕
 
-It's a good idea for a team of three or four people that only handles one or two microservices.
+Now, after 6 years of experience, I've concluded that **microservices are not a good idea when you have a team of ten or fewer people and more than three or four microservices**. 
 
-Otherwise, your development cycle will suffer and things will become tedious and more time expensive. Instead, I'd go with the traditional monolithic architecture, but making sure that your design will allow you to switch to microservices easily.
+In that scenario, your development cycle will suffer and things will become tedious and more time expensive.
 
-In my experience, the team that I lead experienced:
+The main issue is not the microservices architecture itself, but rather the number of tools, knowledge, and preparation that the team needs have to be able to work properly.
+
+In my experience, the team that I lead experienced the following issues when dealing with microservices:
 
 - Upgrading frameworks versions was hard because we had to do it for every microservice, build, and deploy.
 - We had a few libraries that were common for all microservices. Every time we discovered a bug or decided to change something, we had to apply that change to every microservice.
@@ -43,7 +47,10 @@ In my experience, the team that I lead experienced:
 - Individual database schema for every microservice and restricted access to them forced us to use multiple microservices to be called to obtain a dataset
 - Creating and maintaining a small dump of all databases for dev and QA purposes was HARD!
 
+Today I prefer going with the traditional monolithic architecture, but making sure that my design will allow me to switch to microservices easily.
 
-As a conclusion, I'll (try to) get back to monolithic as a starting point and move to microservices when the team size is large enough and the correlation between team size and microservices is adequate, or just create microservices for a small part of the application that could benefit from it.
+As a conclusion, I'll (try to) get back to monolithic as a starting point and move to microservices when the team size is large enough and the correlation between team size and microservices is adequate.
+
+Another solution is to create microservices for a small part of the application that could benefit from it.
 
 > Fun fact: Although I say this, I did use microservices on my recent side project. Maybe I'm hooked up and need counseling 😂
